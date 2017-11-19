@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box; }
+
+h1 {
+  text-align: center; }
+
+header {
+  background-color: #fff; }
+
+.logo-img {
+  width: 70%; }
+
+ul.footer__list {
+  display: flex;
+  justify-content: space-evenly; }
+  ul.footer__list li {
+    text-align: center;
+    line-height: 2;
+    font-size: 12px; }
+
+.categories-list li {
+  border: 2px solid #dedede;
+  display: inline-block;
+  padding: 2%;
+  height: 400px;
+  overflow: hidden;
+  margin: 3px;
+  border-radius: 4px; }
+
+/* MEDIA Q's ............*/
+@media only screen and (min-width: 961px) {
+  .categories-list li {
+    width: 23%; }
+  .categories-list li:nth-child(4n+5) {
+    clear: left; } }
+
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+  .categories-list li {
+    width: 30%; }
+  .categories-list li:nth-child(3n+4) {
+    clear: left; } }
+
+/*TABLET LANDSCAPE */
+@media only screen and (min-width: 581px) and (max-width: 768px) {
+  .categories-list li {
+    width: 48%; }
+  .categories-list li:nth-child(2n+3) {
+    clear: left; } }
+
+/* TABLET PORTRAIT */
+@media only screen and (min-width: 321px) and (max-width: 580px) {
+  .categories-list li {
+    display: block;
+    margin: 0 auto;
+    width: 90%; } }
+
+/*PHONE LANDSCAPE */
+body.node-type-product {
+  /* or try uc-product-node */ }
+  body.node-type-product h2.product__title {
+    font-size: 3em; }
+  body.node-type-product .gallery-slides, body.node-type-product .gallery-frame {
+    width: 100% !important; }
+  body.node-type-product .ds-2col-stacked-fluid {
+    display: flex; }
+  body.node-type-product .group-left {
+    padding-right: 1%; }
+  body.node-type-product .group-right {
+    background-color: pink;
+    border-left: 1px solid #ccc;
+    padding-left: 1%;
+    flex-grow: 1; }
+    body.node-type-product .group-right section {
+      margin-bottom: 5px;
+      font-size: 1.4em; }
+      body.node-type-product .group-right section h2, body.node-type-product .group-right section div {
+        font-size: inherit !important; }
+
+[id*="views_slideshow_cycle_div_slideshow_block-block"] {
+  width: 100%; }
+
+#views_slideshow_cycle_div_slideshow_block-block {
+  width: 100%; }
+
+.browse-list__wrapper {
+  display: block;
+  width: 97%;
+  margin: 0 auto; }
+
+.browse-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  cursor: pointer;
+  /*
+	.browse-list__img { NOT USED
+		display:none;	
+		opacity: .8;
+		width:100%;
+		height:auto;
+		transition: all 0.5s ease;
+
+	} */ }
+  .browse-list .browse-list__item {
+    display: inline-block;
+    overflow: hidden;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #dedede;
+    transition: all 0.5s ease; }
+  .browse-list .browse-list__item:hover .child {
+    transform: scale(1.09);
+    opacity: 1; }
+  .browse-list .browse-list__item--single {
+    width: 180px;
+    height: 180px; }
+  .browse-list .browse-list__item--duble {
+    width: 360px;
+    height: 180px; }
+  .browse-list .child {
+    width: 100%;
+    height: 100%;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease; }
+
+/* MEDIA Q's ............*/
+/*TABLET LANDSCAPE */
+/* TABLET PORTRAIT */
+/*PHONE LANDSCAPE */
+/*CAT BG IMAGES ............*/
+.acc {
+  background-image: url("../images/ACC-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.chn {
+  background-image: url("../images/CHN-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.clo {
+  background-image: url("../images/CLO-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.fur {
+  background-image: url("../images/FUR-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.mir {
+  background-image: url("../images/MIR-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.pnt {
+  background-image: url("../images/PNT-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.por {
+  background-image: url("../images/POR-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.red {
+  background-image: url("../images/RED-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.rug {
+  background-image: url("../images/RUG-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* BROWSER FURNITURE ..........*/
+.arm {
+  background-image: url("../images/ARM-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.bed {
+  background-image: url("../images/BED-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.bkc {
+  background-image: url("../images/BKC-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.brk {
+  background-image: url("../images/BRK-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.buf {
+  background-image: url("../images/BUF-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.chr {
+  background-image: url("../images/CHR-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.cst {
+  background-image: url("../images/CST-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.com {
+  background-image: url("../images/COM-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.cns {
+  background-image: url("../images/CNS-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.dsk {
+  background-image: url("../images/DSK-Icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.mcc {
+  background-image: url("../images/MCC-Icon.jpg"); }
+
+.msc {
+  background-image: url("../images/MSC-Icon.jpg"); }
+
+.sec {
+  background-image: url("../images/SEC-Icon.jpg"); }
+
+.tab {
+  background-image: url("../images/TAB-Icon.jpg"); }
+
+/*FURNITURE BG IMAGES ........*/
+.bed {
+  background-image: url("../images/CLO-Icon.jpg"); }
+
+.buf {
+  background-image: url("../images/BUF-Icon.jpg"); }
+
+.com {
+  background-image: url("../images/COM-Icon.jpg"); }
+
+#title {
+  color: #A37; }
+
+h1 {
+  text-align: center; }
