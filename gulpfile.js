@@ -25,5 +25,7 @@ gulp.task('watch', function() {
 	gulp.watch('styles/main.scss', ['sass']);
 });
 
+gulp.task('default', ['sass']);
+
 
 
