@@ -241,13 +241,10 @@ body.node-type-product {
 
 /*FURNITURE BG IMAGES ........*/
 .bed {
-  background-image: url("../images/CLO-Icon.jpg"); }
+  background-image: url("../images/BED-Icon.jpg"); }
 
 .buf {
   background-image: url("../images/BUF-Icon.jpg"); }
-
-.com {
-  background-image: url("../images/COM-Icon.jpg"); }
 
 #title {
   color: #A37; }

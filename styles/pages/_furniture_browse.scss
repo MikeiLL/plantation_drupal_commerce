@@ -1,0 +1,203 @@
+.browse-list__wrapper {
+	display: block;
+	width:97%;  
+	margin:0 auto;
+}
+
+.browse-list {
+	list-style-type:none;
+	padding:0;
+	width:100%;
+	cursor:pointer;
+
+	.browse-list__item {
+		display:inline-block;
+		overflow:hidden;
+		background-color:#000;
+		margin:0;padding:0;
+		border:1px solid #dedede;
+		transition: all 0.5s ease;
+	}
+
+	.browse-list__item a { }
+
+	.browse-list__item:hover .child {
+		transform: scale(1.09);
+		opacity: 1;
+	}
+
+	.browse-list__item--single {
+		//width:20%;
+		width:180px;
+		height:180px;
+	}
+
+	.browse-list__item--duble {
+		//width:40%;
+		width:360px;
+		height:180px;
+		
+	}
+
+/*
+	.browse-list__img { NOT USED
+		display:none;	
+		opacity: .8;
+		width:100%;
+		height:auto;
+		transition: all 0.5s ease;
+
+	} */
+	.child {
+		width: 100%;
+  		height: 100%;
+  		opacity:.75;
+  		background-position: center;
+  		background-size: cover;
+  		transition: all 0.5s ease;
+	}
+
+}
+
+/* MEDIA Q's ............*/
+@media only screen and (min-width:769px) and (max-width:960px) {} /*TABLET LANDSCAPE */
+
+@media only screen and (min-width:581px) and (max-width:768px) {} /* TABLET PORTRAIT */
+
+@media only screen and (min-width:321px) and (max-width:580px) {} /*PHONE LANDSCAPE */
+
+@media only screen and (max-width:320px) {}
+
+
+/*CAT BG IMAGES ............*/
+.acc {
+	background-image:url("../images/ACC-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.chn {
+	background-image:url("../images/CHN-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.clo {
+	background-image:url("../images/CLO-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.fur {
+	background-image:url("../images/FUR-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.mir {
+	background-image:url("../images/MIR-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.pnt {
+	background-image:url("../images/PNT-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.por {
+	background-image:url("../images/POR-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.red {
+	background-image:url("../images/RED-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.rug {
+	background-image:url("../images/RUG-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* BROWSER FURNITURE ..........*/
+
+.arm {
+	background-image:url("../images/ARM-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bed {
+	background-image:url("../images/BED-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bkc {
+	background-image:url("../images/BKC-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.brk {
+	background-image:url("../images/BRK-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.buf {
+	background-image:url("../images/BUF-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.chr {
+	background-image:url("../images/CHR-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.cst {
+	background-image:url("../images/CST-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.com {
+	background-image:url("../images/COM-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.cns {
+	background-image:url("../images/CNS-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.dsk {
+	background-image:url("../images/DSK-Icon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.mcc {background-image:url("../images/MCC-Icon.jpg");}
+.msc {background-image:url("../images/MSC-Icon.jpg");}
+.sec {background-image:url("../images/SEC-Icon.jpg");}
+.tab {background-image:url("../images/TAB-Icon.jpg");}
+
+
+/*FURNITURE BG IMAGES ........*/
+.bed {background-image:url("../images/BED-Icon.jpg");}
+.buf {background-image:url("../images/BUF-Icon.jpg");}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
