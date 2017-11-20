@@ -3,7 +3,7 @@ body.node-type-product {
 /* or try uc-product-node */ 
 
 	h2.product__title {
-		font-size: 3em;
+		font-size:2em;
 	}
 	.gallery-slides, .gallery-frame {
 		width:100% !important;
@@ -15,9 +15,10 @@ body.node-type-product {
 
 	.group-left {
 		padding-right:1%;
+		border-right:1px solid #ccc;
 	}
 	.group-right {
-		background-color: pink;
+		/* background-color: pink; */
 		border-left:1px solid #ccc;
 		padding-left:1%;
 		flex-grow:1;
@@ -29,6 +30,10 @@ body.node-type-product {
 			h2, div {
 				font-size: inherit !important;
 			}
+		}
+		.field-name-body p {
+			line-height: 1.4;
+			font-size: inherit;
 		}
 	}
 
