@@ -89,7 +89,8 @@ body.node-type-product {
     /* background-color: pink; */
     border-left: 1px solid #ccc;
     padding-left: 1%;
-    /* flex-grow:1; */ }
+
+    flex-grow: 1; }
     body.node-type-product .group-right section {
       margin-bottom: 5px;
       font-size: 1.4em; }

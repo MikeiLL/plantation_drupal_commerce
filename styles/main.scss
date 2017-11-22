@@ -1,0 +1,24 @@
+@import "global/mixins";
+@import "global/variables";
+@import "global/global";
+
+@import "components/header";
+@import "components/navigation";
+@import "components/footer";
+
+@import "pages/category_overview";
+@import "pages/page_layout";
+@import "pages/product_page";
+@import "pages/homepage";
+@import "pages/browse";
+@import "pages/furniture_browse";
+
+$primary-color: #A37;
+
+#title {
+	  color: $primary-color;
+}
+
+h1 { 
+	text-align: center;
+ }

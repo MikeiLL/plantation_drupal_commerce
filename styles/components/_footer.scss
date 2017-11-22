@@ -1,0 +1,11 @@
+ul.footer__list {
+	display:flex;
+	justify-content:space-evenly;
+
+	li {
+		text-align: center;
+		line-height: 2;
+		font-size:12px;
+	}
+}
+
