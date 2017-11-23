@@ -6,3 +6,59 @@
 #views_slideshow_cycle_div_slideshow_block-block {
 	width:100%;
 }
+
+.hero-cta {
+	position: absolute;
+	font-weight: bold;
+	padding: .8em;
+	bottom: 4em;
+	left:60%;
+	background: $ming_blue;
+	color: $ming_white;
+	box-shadow: 7px 7px 5px darken($ming_blue, 18%);
+	font-family: 'chelsearegular';
+}
+
+.region-inner .block-region-secondary-content {
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.55), 
+      rgba(63, 66, 90, .65)
+    ),
+    url('../images/dining_room_cropped.jpg');
+	height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    .hero-copy p {
+		text-align: center;
+		position: absolute;
+		font-size: 1.6em;
+		line-height: 1.2em;
+		top: 50%;
+		left: 40%;
+		width: 70%;
+    	transform: translate(-35%, -50%);
+    	-webkit-transform: translate(-35%, -50%);
+		color: white;
+		font-family: 'chelsearegular';
+	}
+}
+
+@media (min-width:590px) {
+
+	.hero-copy p {
+		font-size: 2em;
+	}
+	
+}
+
+@media (min-width:960px) {
+
+	.hero-copy p {
+		font-size: 2.5em;
+	}
+	
+}
