@@ -25,8 +25,20 @@ button, input[type=submit] {
   color: #D1D3D2;
   font-weight: bold;
   padding: .8em;
+<<<<<<< HEAD
   box-shadow: 7px 7px 5px #262b3a;
   font-family: 'chelsearegular'; }
+=======
+  box-shadow: 7px 7px 5px #262b3a; }
+
+@media (min-width: 590px) {
+  button, input[type=submit] {
+    font-size: 1.5em; } }
+
+@media (min-width: 960px) {
+  button, input[type=submit] {
+    font-size: 1.9em; } }
+>>>>>>> Remove main.css from git. Track global.styles.css
 
 .categories-list li {
   border: 2px solid #dedede;
@@ -101,11 +113,19 @@ body.node-type-product {
   font-weight: bold;
   padding: .8em;
   bottom: 4em;
+<<<<<<< HEAD
   left: 60%;
   background: #4A5471;
   color: #D1D3D2;
   box-shadow: 7px 7px 5px #262b3a;
   font-family: 'chelsearegular'; }
+=======
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #4A5471;
+  color: #D1D3D2;
+  box-shadow: 7px 7px 5px #262b3a; }
+>>>>>>> Remove main.css from git. Track global.styles.css
 
 .region-inner .block-region-secondary-content {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(63, 66, 90, 0.65)), url("../images/dining_room_cropped.jpg");
@@ -129,11 +149,31 @@ body.node-type-product {
 
 @media (min-width: 590px) {
   .hero-copy p {
+<<<<<<< HEAD
     font-size: 2em; } }
 
 @media (min-width: 960px) {
   .hero-copy p {
     font-size: 2.5em; } }
+=======
+    font-size: 2.5em;
+    line-height: 2em; }
+  .hero-cta {
+    position: absolute;
+    font-weight: bold;
+    padding: .8em;
+    bottom: 4em;
+    left: 60%;
+    transform: translate(-35%, -50%);
+    background: #4A5471;
+    color: #D1D3D2;
+    box-shadow: 7px 7px 5px #262b3a; } }
+
+@media (min-width: 960px) {
+  .hero-copy p {
+    font-size: 3.6em;
+    line-height: 3.6em; } }
+>>>>>>> Remove main.css from git. Track global.styles.css
 
 .browse-list__wrapper {
   display: block;
