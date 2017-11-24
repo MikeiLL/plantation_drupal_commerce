@@ -2941,3 +2941,124 @@ body.html .pager .pager-next {
 #first-time .item-list {
   margin: 5px 0;
 }
+
+/*Maps on find us page */
+#block-block-6 p {
+
+text-align: center;
+
+}
+
+/* footer */
+ul.footer__list {
+
+    justify-content: space-around !important;
+}
+
+
+/* tour page */
+#node-66 {
+
+	text-align: center;
+}
+
+/*Featured Artist center alignment */
+.clearfix {
+    text-align: center;
+
+}
+/*  Featured Artist border */
+img.image-style-uc-product {
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    margin-bottom: 24px !important;
+}
+
+/* about us image */
+.node-article img {
+    
+    display: block !important;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+/* about us text */
+.field-item p{
+
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* about us and featured changes */
+.node-article{
+
+border: none !important;
+padding: 16px !important;
+
+}
+
+/* footer for tablet */
+@media only screen and (min-width: 600px) and  (max-width: 992px){
+
+	ul.footer__list {
+    		display: flex;
+    		flex-direction: row;
+    		flex-wrap: wrap;
+	}
+
+	ul.footer__list li {
+
+    		flex-basis: 50%;
+    		padding: 8px;
+	}
+
+}
+
+#header .region-header .region-inner, #menu-bar {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 450px)
+{
+.logo-img {
+    width: auto !important;
+}
+}
+
+.block-inner h2{
+
+font-size:26px;
+}
+
+@media only screen and (max-width: 599px) and (min-width: 0px) {
+
+.node-article{
+     width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+/*  footer */
+ul.footer__list {
+    flex-direction: column;
+}
+
+.block.jquery-once-1-processed{
+    position: absolute;
+    bottom: 44px;
+    left: 0;
+    width: auto;
+    display: inline-block;
+    right: auto;
+    margin-left: 15px;
+}
+
+}
+
+
+
+
+
+
