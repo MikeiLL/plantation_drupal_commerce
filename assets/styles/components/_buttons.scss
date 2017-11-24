@@ -8,6 +8,31 @@ button, input[type=submit] {
 	box-shadow: 7px 7px 5px darken($ming_blue, 18%);
 }
 
+
+.pg-button-default, .block-webform .form-submit {
+  background: #eceeee;
+  border-radius: 2px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid #b6bcc3;
+  text-transform: uppercase;
+  border-radius: 2px;
+  padding: 7px 24px;
+  height: 30px;
+  font-size: 11px;
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.4), inset 0px 10px 20px 0px rgba(255,255,255,0.3);
+  -moz-box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.4), inset 0px 10px 20px 0px rgba(255,255,255,0.3);
+  box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.4), inset 0px 10px 20px 0px rgba(255,255,255,0.3);
+}
+
+.block-webform .form-submit:hover {
+  background: #00b4e5;
+  color: #FFF;
+  border-color: #00b4e5;
+}
+
+
+
 @media (min-width:590px) {
 
 	button, input[type=submit] { 
