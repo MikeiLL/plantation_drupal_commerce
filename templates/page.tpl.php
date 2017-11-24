@@ -132,7 +132,7 @@
                 <?php print $site_logo; ?>
               </div>
             <?php endif; ?>
-			<div class='below_logo'>604 Bel Air Blvd. Mobile, AL <span>(251) 470-9961</span></div>
+			<div class='below_logo'>604 Bel Air Blvd. Mobile, AL <span><a href="tel://1-251-470-9961">(251) 470-9961</a></span></div>
           </div>
           <nav id="block-system-main-menu" role="navigation">
             <?php print render($page['menu_bar']); ?>
@@ -255,7 +255,7 @@
             <li>Plantation Antique Galleries</li>
             
             <li>604 Bel Air Blvd, Mobile AL 36606</li>
-            <li>(251) 470-9961</li>
+            <li><a href="tel://1-251-470-9961">(251) 470-9961</a></li>
             <li><a href="mailto:info@plantationgalleries.com">info@plantationgalleries.com</a></li>
           </ul>
         </div>
