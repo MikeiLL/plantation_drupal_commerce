@@ -216,7 +216,7 @@
             <!-- !Main Content -->
             <?php if ($content = render($page['content'])): ?>
               <div id="content" class="region">
-                <p><?php print $content; ?></p>
+                <?php print $content; ?>
               </div>
             <?php endif; ?>
 
