@@ -132,8 +132,9 @@
                 <?php print $site_logo; ?>
               </div>
             <?php endif; ?>
-			<div class='below_logo'>604 Bel Air Blvd. Mobile, AL <span><a href="tel://1-251-470-9961">(251) 470-9961</a></span></div>
-			<div class='below_logo_two'>Hours 10AM-5PM Tuesday-Saturday</div>
+			<div class='below_logo'>604 Bel Air Blvd. Mobile, AL <span><a href="tel://1-251-470-9961">(251) 470-9961</a></span>
+				<span>Hours 10AM-5PM Tuesday-Saturday</span>
+			</div>
           </div>
           <nav id="block-system-main-menu" role="navigation">
             <?php print render($page['menu_bar']); ?>
