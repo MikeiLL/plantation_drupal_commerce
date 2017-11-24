@@ -256,7 +256,7 @@
             
             <li>604 Bel Air Blvd, Mobile AL 36606</li>
             <li>(251) 470-9961</li>
-            <li><a href="mailto:#">someone@plantationgalleries.com</a></li>
+            <li><a href="mailto:info@plantationgalleries.com">info@plantationgalleries.com</a></li>
           </ul>
         </div>
       </footer>
