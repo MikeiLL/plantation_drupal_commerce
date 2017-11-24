@@ -66,9 +66,8 @@ h1.node-title {
 
 @media screen and (min-width:590px) {
 
-	.hero-copy p {
-		font-size: 2.5em;
-		line-height: 2em;
+	.region-inner .block-region-secondary-content .hero-copy p {
+		font-size: 2em;
 	}
 	
 	.hero-cta {
@@ -85,11 +84,10 @@ h1.node-title {
 	
 }
 
-@media screen and  (min-width:960px) {
+@media screen and (min-width:960px) {
 
-	.hero-copy p {
-		font-size: 3.6em;
-		line-height: 3.6em;
+	.region-inner .block-region-secondary-content .hero-copy p {
+		font-size: 2.4em;
 	}
 	
 }
