@@ -18,6 +18,9 @@ ul.footer__list {
     line-height: 2;
     font-size: 12px; }
 
+ul.links {
+  margin: 0 .5em; }
+
 button, input[type=submit] {
   width: auto;
   overflow: visible;
@@ -25,13 +28,6 @@ button, input[type=submit] {
   color: #D1D3D2;
   font-weight: bold;
   padding: .8em;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  box-shadow: 7px 7px 5px #262b3a;
-  font-family: 'chelsearegular'; }
-=======
->>>>>>> 0cb2719681c990e280c3b252eb3c644f69206121
   box-shadow: 7px 7px 5px #262b3a; }
 
 @media (min-width: 590px) {
@@ -41,10 +37,6 @@ button, input[type=submit] {
 @media (min-width: 960px) {
   button, input[type=submit] {
     font-size: 1.9em; } }
-<<<<<<< HEAD
-=======
->>>>>>> Remove main.css from git. Track global.styles.css
->>>>>>> 0cb2719681c990e280c3b252eb3c644f69206121
 
 .categories-list li {
   border: 2px solid #dedede;
@@ -119,27 +111,11 @@ body.node-type-product {
   font-weight: bold;
   padding: .8em;
   bottom: 4em;
-<<<<<<< HEAD
   left: 50%;
   transform: translate(-50%, -50%);
   background: #4A5471;
   color: #D1D3D2;
   box-shadow: 7px 7px 5px #262b3a; }
-=======
-<<<<<<< HEAD
-  left: 60%;
-  background: #4A5471;
-  color: #D1D3D2;
-  box-shadow: 7px 7px 5px #262b3a;
-  font-family: 'chelsearegular'; }
-=======
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #4A5471;
-  color: #D1D3D2;
-  box-shadow: 7px 7px 5px #262b3a; }
->>>>>>> Remove main.css from git. Track global.styles.css
->>>>>>> 0cb2719681c990e280c3b252eb3c644f69206121
 
 .region-inner .block-region-secondary-content {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(63, 66, 90, 0.65)), url("../images/dining_room_cropped.jpg");
@@ -161,9 +137,11 @@ body.node-type-product {
     color: white;
     font-family: 'chelsearegular'; }
 
+.node-article {
+  padding: 1em; }
+
 @media (min-width: 590px) {
   .hero-copy p {
-<<<<<<< HEAD
     font-size: 2.5em;
     line-height: 2em; }
   .hero-cta {
@@ -181,33 +159,6 @@ body.node-type-product {
   .hero-copy p {
     font-size: 3.6em;
     line-height: 3.6em; } }
-=======
-<<<<<<< HEAD
-    font-size: 2em; } }
-
-@media (min-width: 960px) {
-  .hero-copy p {
-    font-size: 2.5em; } }
-=======
-    font-size: 2.5em;
-    line-height: 2em; }
-  .hero-cta {
-    position: absolute;
-    font-weight: bold;
-    padding: .8em;
-    bottom: 4em;
-    left: 60%;
-    transform: translate(-35%, -50%);
-    background: #4A5471;
-    color: #D1D3D2;
-    box-shadow: 7px 7px 5px #262b3a; } }
-
-@media (min-width: 960px) {
-  .hero-copy p {
-    font-size: 3.6em;
-    line-height: 3.6em; } }
->>>>>>> Remove main.css from git. Track global.styles.css
->>>>>>> 0cb2719681c990e280c3b252eb3c644f69206121
 
 .browse-list__wrapper {
   display: block;
