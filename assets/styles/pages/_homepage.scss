@@ -64,12 +64,13 @@ h1.node-title {
 	font-family: 'IM Fell English', serif !important;
 }
 
-@media (min-width:590px) {
+@media screen and (min-width:590px) {
 
 	.hero-copy p {
 		font-size: 2.5em;
 		line-height: 2em;
 	}
+	
 	.hero-cta {
 		position: absolute;
 		font-weight: bold;
@@ -84,7 +85,7 @@ h1.node-title {
 	
 }
 
-@media (min-width:960px) {
+@media screen and  (min-width:960px) {
 
 	.hero-copy p {
 		font-size: 3.6em;
