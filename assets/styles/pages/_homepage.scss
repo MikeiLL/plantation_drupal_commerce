@@ -10,6 +10,7 @@
 // Buttons
 .hero-cta {
 	position: absolute;
+	font-family: sans-serif, arial, helvetica;
 	font-weight: bold;
 	padding: .8em;
 	bottom: 4em;
@@ -45,6 +46,9 @@
     	-webkit-transform: translate(-35%, -50%);
 		color: white;
 		font-family: 'chelsearegular';
+		cite {
+			white-space: nowrap;
+		}
 	}
 }
 
@@ -71,15 +75,11 @@ h1.node-title {
 	}
 	
 	.hero-cta {
+		font-family: sans-serif, arial, helvetica;
+		font-size: 1.4em;
 		position: absolute;
-		font-weight: bold;
-		padding: .8em;
-		bottom: 4em;
 		left:60%;
 		transform: translate(-35%, -50%);
-		background: $ming_blue;
-		color: $ming_white;
-		box-shadow: 7px 7px 5px darken($ming_blue, 18%);
 	}
 	
 }
@@ -88,6 +88,10 @@ h1.node-title {
 
 	.region-inner .block-region-secondary-content .hero-copy p {
 		font-size: 2.4em;
+	}
+	
+	.hero-cta {
+		font-size: 1.6em;
 	}
 	
 }
