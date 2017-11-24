@@ -2,6 +2,26 @@ header {
 	background-color:#fff;
 }
 
-.logo-img {
-	width:70%; 
+.below_logo {
+	margin-left: 1em;
+	span {
+		width: 100%;
+		display: block;
+	}
+}
+
+@media screen and (min-width:590px) {
+	.below_logo {
+		span {
+			margin-left: 1em;
+			width: 30%;
+			display: inline;
+		}
+	}
+}
+
+@media screen and (min-width:450px) {
+	.logo-img {
+		max-width:70%; 
+	}
 }

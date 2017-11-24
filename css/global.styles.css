@@ -91,7 +91,7 @@ a {
   color: #26292d;
 }
 a:hover {
-  color: #00b4e5;
+  color: #B6A465;
 }
 
 .form-item {
@@ -117,13 +117,13 @@ a:hover {
 }
 
 .form-submit:hover {
-  background: #00b4e5;
+  background: #B6A465;
   color: #FFF;
-  border-color: #00b4e5;
+  border-color: #B6A465;
 }
 
 .links a {
-  color: #00B4E5;
+  color: #B6A465;
 }
 
 textarea,
@@ -146,7 +146,7 @@ textarea,
 
 textarea:focus,
 .form-text:focus {
-  box-shadow: 0 0 4px 0px #00b4e5, 0 0 0px 1000px white inset;
+  box-shadow: 0 0 4px 0px #B6A465, 0 0 0px 1000px white inset;
 }
 
 #footer input.form-text:focus {
@@ -170,7 +170,7 @@ input:-webkit-autofill {
 }
 
 .user-profile a {
-  color: #00B4E5;
+  color: #B6A465;
 }
 .user-profile a:hover {
   text-decoration: underline;
@@ -264,7 +264,7 @@ input:-webkit-autofill {
 #user-pass .login-forgot a,
 #user-login .login-forgot a {
   text-decoration: underline;
-  color: #00B4E5;
+  color: #B6A465;
 }
 #user-register-form .login-forgot a:hover,
 #user-pass .login-forgot a:hover,
@@ -360,7 +360,7 @@ a:hover {
 }
 .region-leaderboard .region-inner .block a:hover,
 #block-system-user-menu a:hover {
-  color: #00B4E5;
+  color: #B6A465;
   text-decoration: none;
 }
 .region-leaderboard .region-inner .custom-shopping-cart {
@@ -369,7 +369,7 @@ a:hover {
 .region-leaderboard .region-inner .custom-shopping-cart .content a {
   color: #26292D;
   display: block;
-  background: #00b4e5;
+  background: #B6A465;
   padding: 10px 12px 9px 9px;
   min-width: 102px;
   margin-left: 25px;
@@ -534,9 +534,9 @@ a:hover {
 .view-product-category .view-content .form-submit:hover,
 .view-categories-page .view-content .form-submit:hover,
 .view-popular-categories .view-content .form-submit:hover {
-  background: #00b4e5;
+  background: #B6A465;
   color: #FFF;
-  border-color: #00b4e5;
+  border-color: #B6A465;
 }
 .view-products-for-homepage .view-content .views-field-name,
 .view-products-for-homepage .view-content .views-field-name-1,
@@ -584,7 +584,7 @@ a:hover {
 .view-product-category .view-content .views-field-name-1 a:hover,
 .view-categories-page .view-content .views-field-name-1 a:hover,
 .view-popular-categories .view-content .views-field-name-1 a:hover {
-  color: #00B4E5;
+  color: #B6A465;
 }
 .view-products-for-homepage .view-content .views-field-view,
 .view-product-category .view-content .views-field-view,
@@ -729,7 +729,7 @@ a:hover {
 .view-popular-categories .product-category-page-row .product-preview-price,
 .view-popular-categories .product-preview-rating .product-preview-price,
 .view-popular-categories .views-field-view .product-preview-price {
-  background: #00b4e5;
+  background: #B6A465;
   color: #FFF;
   display: inline-block;
   *display: inline;
@@ -790,7 +790,7 @@ a:hover {
 .view-product-category .product-preview-title a:hover,
 .view-categories-page .product-preview-title a:hover,
 .view-popular-categories .product-preview-title a:hover {
-  color: #00b4e5;
+  color: #B6A465;
 }
 .view-products-for-homepage .product-preview-rating,
 .view-product-category .product-preview-rating,
@@ -829,7 +829,7 @@ a:hover {
 }
 
 #content .view-products-for-homepage .views-row .product-preview-price {
-  background: #00b4e5;
+  background: #B6A465;
   color: #FFF;
   display: inline-block;
   vertical-align: top;
@@ -843,7 +843,7 @@ a:hover {
 
 #main-content .view-products-for-homepage .product-preview-price,
 .tags-page-row .product-preview-price {
-  background: #00b4e5;
+  background: #B6A465;
   color: #FFF;
   display: inline-block;
   *display: inline;
@@ -897,7 +897,7 @@ a:hover {
 }
 
 .custom-show-menu.block {
-  border: 1px solid #00b4e5;
+  border: 1px solid #B6A465;
   background: #5cdbfe;
   background: -moz-linear-gradient(top, #5cdbfe 25%, #5cdbfe 25%, #00a4d0 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #5cdbfe), color-stop(25%, #5cdbfe), color-stop(100%, #00a4d0));
@@ -912,7 +912,7 @@ a:hover {
   cursor: pointer;
 }
 .custom-show-menu .block-inner {
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAASCAYAAABM8m7ZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUE1QTYyQ0Y4OTkzMTFFNEIzMjk5NERCQkRCNDkyQjkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUE1QTYyRDA4OTkzMTFFNEIzMjk5NERCQkRCNDkyQjkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFQTVBNjJDRDg5OTMxMUU0QjMyOTk0REJCREI0OTJCOSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFQTVBNjJDRTg5OTMxMUU0QjMyOTk0REJCREI0OTJCOSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsSqYTQAAAAvSURBVHjaYvwPBAwDAJgYBgiMPItZgJhxNKjpFdSj2Wk0O40G9Wh2GrWYKAAQYACz7QYo1MNOfgAAAABJRU5ErkJggg==") no-repeat center center;
+  background:    url('data:image/png;base64,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uLWnycnEJkXJ2fNdagAAAIZ0Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wDZmVodAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACVUlEQVQ4je2TbW/SUBSAD/JWYI3ixKkYGmIIjmwJLHPLmCAvpeUlaEwMc8wEVucHgZRlCVIsdJb1h3vupZUCGlwWv/mcw7nNvU/PbXopXN8K+Hc6XMNf6ADgcNxDXC7X73VqUMc1o9VqeTwepxNWm1CnRXG2nASG8fn9mH437eIwu8wU2sbpY3w+v5sEwrIbXpb1sl4wmzwIBoMPkc3NR5ih0GPMQOBJ4KlJOBzeCYefA8MwfnfovrqG7l4qFoulwL3Ber0vbAu6VXVrIKFuH8QT8Tg88+I2L+fz5oV1o2412S5EIoUI7ESjqVh011ywtbYXXe1K2Wx2kAR8pDgS29/bf4UcHkqYknSAIZELSSqQ5DguN8hxEE8kyC5I4fXW1tFRMpnFgj9sNjgeoMJx+RwGwucBnUIBl3CRFqJg4XJUMK08X62KmCJkqYItjgdchYAiUXkeFYJQEkSxXK7VavV6GSpcZdZobggYaJVr9RoFLyhvm6dQ5PNVvtp4j+SKMz4U+UajURLFUqN0IpwIeMfHZrPT7pydgYCUG5/WnWqv3W5fnp8DeaS6pM5P6Q/x+QsBTpu4z7uFE1yGzr/RtK+aBh3c5aLds/09VgOz18/IspyBywu6izJMD4fDb+m0oigjZTQafUd+zBnPgMlkgrvgPpomY8r9PnbBmkHGmfESoM1Wyfo4s7K8oq81FvVb2ZYuT5e5soUyVRZ0Wbe/5NVUVcOuXy18er8c6+DI/HRRt32buqXMB1W36+Ob7m7XMLoGLYbRMwxazTkcbu7yZv7rd9V/AmeI4m3VeeL0AAAAAElFTkSuQmCC') no-repeat center center;
   width: 46px;
   height: 36px;
   border-radius: 5px;
@@ -980,7 +980,7 @@ a:hover {
 }
 .view-popular-categories .views-slideshow-cycle-main-frame .views-field-commerce-price,
 .view-categories-page .views-slideshow-cycle-main-frame .views-field-commerce-price {
-  background: #00b4e5;
+  background: #B6A465;
   color: #FFF;
   display: inline-block;
   vertical-align: top;
@@ -1315,7 +1315,7 @@ div.region .block.block-search {
   font-size: 24px;
   font-family: "Open Sans Condensed", sans-serif;
   color: #FFF;
-  background: #00b4e5;
+  background: #B6A465;
   text-transform: uppercase;
   font-weight: 400;
   text-align: center;
@@ -1387,7 +1387,7 @@ div.region .block.block-search {
   overflow: hidden;
 }
 .sidebar .view-products-for-homepage .view-content > .views-row .product-preview-title a:hover {
-  color: #00b4e5;
+  color: #B6A465;
 }
 .sidebar .view-products-for-homepage .view-content > .views-row .field-content a {
   float: left;
@@ -1468,8 +1468,8 @@ div.region .block.block-search {
   box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.4), inset 0px 10px 20px 0px rgba(255,255,255,0.3);
 }
 #block-user-login .form-wrapper .form-submit:hover {
-  background: #00b4e5;
-  border-color: #00b4e5;
+  background: #B6A465;
+  border-color: #B6A465;
   color: #FFF;
 }
 
@@ -1484,7 +1484,7 @@ div.region .block.block-search {
   font-weight: normal;
 }
 .block-commerce-cart .cart-quantity {
-  color: #00B4E5;
+  color: #B6A465;
 }
 .block-commerce-cart .line-item-summary {
   text-align: left;
@@ -1518,9 +1518,9 @@ div.region .block.block-search {
   min-width: inherit;
 }
 .block-commerce-cart .line-item-summary .links .line-item-summary-view-cart a:hover {
-  background: #00b4e5;
+  background: #B6A465;
   color: #FFF;
-  border-color: #00b4e5;
+  border-color: #B6A465;
 }
 .block-commerce-cart .line-item-summary .links a {
   color: #fff;
@@ -1580,7 +1580,7 @@ div.region .block.block-search {
   color: #828487;
 }
 #block-delta-blocks-breadcrumb #breadcrumb li .active {
-  color: #00B4E5;
+  color: #B6A465;
 }
 #block-delta-blocks-breadcrumb #breadcrumb li .active:after {
   display: none;
@@ -1600,6 +1600,7 @@ div.region .block.block-search {
 .page-node-49 .field-name-body a:hover {
   color: #5a616a;
 }
+/*
 .block-webform .form-submit {
   background: #eceeee;
   border-radius: 2px;
@@ -1616,10 +1617,11 @@ div.region .block.block-search {
   box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.4), inset 0px 10px 20px 0px rgba(255,255,255,0.3);
 }
 .block-webform .form-submit:hover {
-  background: #00b4e5;
+  background: #B6A465;
   color: #FFF;
-  border-color: #00b4e5;
+  border-color: #B6A465;
 }
+*/
 .block-webform .webform-component-textarea {
   margin-bottom: 19px;
 }
@@ -1704,7 +1706,7 @@ div.region .block.block-search {
 .view-blog-page .blog-author a,
 .view-blog-page .blog-comments-count,
 .node-article .author-datetime .username {
-  color: #00B4E5;
+  color: #B6A465;
 }
 .node-article .links li {
   display: inline-block;
@@ -1736,9 +1738,9 @@ div.region .block.block-search {
 }
 .view-blog-page .views-field-view-node a:hover,
 .node-article .node-readmore a:hover {
-  background: #00b4e5;
+  background: #B6A465;
   color: #FFF;
-  border-color: #00b4e5;
+  border-color: #B6A465;
 }
 
 .node-type-blog .blog-page-title {
@@ -1775,7 +1777,7 @@ div.region .block.block-search {
 }
 .node-blog .author-datetime .blog-comments-count,
 .node-blog .author-datetime .username {
-  color: #00B4E5;
+  color: #B6A465;
 }
 .node-blog .field-name-field-blog-category .field-label {
   font-weight: normal;
@@ -1800,7 +1802,7 @@ div.region .block.block-search {
   margin-bottom: 33px;
 }
 .node-blog .login-links a {
-  color: #00B4E5;
+  color: #B6A465;
 }
 
 .comment-wrapper img {
@@ -1877,7 +1879,7 @@ div.region .block.block-search {
 }
 .node-type-product .commerce-product-field-commerce-price .field-name-commerce-price {
   float: right;
-  background: #00b4e5;
+  background: #B6A465;
   color: #FFF;
   display: inline-block;
   vertical-align: top;
@@ -2341,9 +2343,9 @@ body.html .pager .pager-next {
   min-width: inherit;
 }
 .checkout-buttons .form-submit:hover {
-  background: #00b4e5;
+  background: #B6A465;
   color: #FFF;
-  border-color: #00b4e5;
+  border-color: #B6A465;
 }
 
 .page-checkout #main-content,
@@ -2480,9 +2482,9 @@ body.html .pager .pager-next {
   box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.4), inset 0px 10px 20px 0px rgba(255,255,255,0.3);
 }
 #footer .custom-footer-simplenews .form-submit:hover {
-  background: #00b4e5;
+  background: #B6A465;
   color: #FFF;
-  border-color: #00b4e5;
+  border-color: #B6A465;
 }
 #footer .region-footer .region-inner .custom-footer-info.block {
   display: block;
@@ -2775,7 +2777,7 @@ body.html .pager .pager-next {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cdbfe', endColorstr='#00a4d0',GradientType=0 );
   color: #FFF;
   box-shadow: inset 0px -1px 0px 0px #8ed7eb, 0px 1px 0px 0px #e9ebed;
-  border-color: #00b4e5;
+  border-color: #B6A465;
 }
 .view-blog-categories .blog_usernames_blog {
   display: block;
@@ -2795,7 +2797,7 @@ body.html .pager .pager-next {
   margin-bottom: 33px;
 }
 .custom-login-links a {
-  color: #00B4E5;
+  color: #B6A465;
 }
 .comment-wrapper .links li {
   margin-right: 10px;
@@ -2824,7 +2826,7 @@ body.html .pager .pager-next {
   border-radius: 0 0 10px 10px;
 }
 .search-results .title a {
-  color: #00b4e5;
+  color: #B6A465;
 }
 
 .view-commerce-cart-form {
