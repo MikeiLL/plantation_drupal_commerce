@@ -262,7 +262,40 @@
           </ul>
         </div>
       </footer>
-   
+		<script type="application/ld+json">
+		{
+		 "@context": "http://schema.org",
+		 "@type": "LocalBusiness",
+		 "address": {
+		   "@type": "PostalAddress",
+		   "addressLocality": "Mobile",
+		   "addressRegion": "AL",
+		   "streetAddress": "604 Bel Air Blvd",
+		   "postalCode": "36606"
+		 },
+		 "description": "The Americare Companies are a group of companies that provide myriad healthcare services including home health, pharmacy, rehabilitation and managed care services throughout New York State, and international nurse recruitment for healthcare facilities throughout the United States.",
+		 "name": "Plantation Antique Galleries",
+		 "telephone": "12514709961",
+		 "image": "http://plantationgalleries.com/sites/default/files/logo-1.png"
+		}
+		</script>
+		<script type="application/ld+json">
+		{
+		 "@context": "http://schema.org",
+		 "@type": "Store",
+		 "address": {
+		   "@type": "PostalAddress",
+		   "addressLocality": "Mobile",
+		   "addressRegion": "AL",
+		   "streetAddress": "604 Bel Air Blvd",
+		   "postalCode": "36606"
+		 },
+		 "description": "The Americare Companies are a group of companies that provide myriad healthcare services including home health, pharmacy, rehabilitation and managed care services throughout New York State, and international nurse recruitment for healthcare facilities throughout the United States.",
+		 "name": "Plantation Antique Galleries",
+		 "telephone": "12514709961",
+		 "image": "http://plantationgalleries.com/sites/default/files/logo-1.png"
+		}
+		</script>
 
   </div>
 </div>
