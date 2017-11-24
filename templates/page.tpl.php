@@ -244,9 +244,11 @@
     <?php print render($page['tertiary_content']); ?>
 
     <!-- !Footer -->
-    <?php if ($page['footer'] || $attribution): ?>
+    
       <footer<?php print $footer_attributes; ?>>
+<?php if ($page['footer'] || $attribution): ?>
         <?php print render($page['footer']); ?>
+ <?php endif; ?>
         <?php //print $attribution;?>
         <div class="copyright"><!-- <p>Drupal DEMO Store. Copyright ©&nbsp;2015 Themes by <a href="http://adcisolutions.com/" title="drupal development">ADCI solutions</a>. All Rights Reserved.</p> -->
           <ul class="footer__list"><li>Copyright ©&nbsp;2017</li> 
@@ -258,7 +260,7 @@
           </ul>
         </div>
       </footer>
-    <?php endif; ?>
+   
 
   </div>
 </div>
