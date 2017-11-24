@@ -1,0 +1,25 @@
+button, input[type=submit] { 
+	width:auto; 
+	overflow:visible; 
+	background: $ming_blue;
+	color: $ming_white;
+	font-weight: bold;
+	padding: .8em;
+	box-shadow: 7px 7px 5px darken($ming_blue, 18%);
+}
+
+@media (min-width:590px) {
+
+	button, input[type=submit] { 
+		font-size: 1.5em;
+	}
+	
+}
+
+@media (min-width:960px) {
+
+	button, input[type=submit] { 
+		font-size: 1.9em;
+	}
+	
+}
