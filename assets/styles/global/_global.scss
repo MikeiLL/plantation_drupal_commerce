@@ -3,6 +3,13 @@
 	box-sizing:border-box;
 }
 
-h1 { 
-	text-align: center;
+/* FORMS */
+input[type="submit"] {
+	background-color: $yellow !important;
+	font-family: 'IM Fell English', serif;
+
+}
+
+input[type="submit"]:hover {
+	background-color: $purple !important;
 }

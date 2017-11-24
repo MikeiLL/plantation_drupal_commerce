@@ -1,16 +1,23 @@
 body.node-type-product {
 
 /* or try uc-product-node */ 
+	.easy-breadcrumb {
+		padding-bottom: 25px;
+	}
 
 	h2.product__title {
 		font-size:2em;
+		font-family: 'chelsearegular';
+	}
+	section {
+		font-family:'IM Fell English', serif;
 	}
 	.gallery-slides, .gallery-frame {
 		width:100% !important;
 	}
 
 	.ds-2col-stacked-fluid {
-		display: flex;
+		/* display: flex; */
 	}
 
 	.group-left {
@@ -21,7 +28,7 @@ body.node-type-product {
 		/* background-color: pink; */
 		border-left:1px solid #ccc;
 		padding-left:1%;
-		flex-grow:1;
+		/* flex-grow:1; */
 
 		section {
 			margin-bottom:5px;
@@ -31,11 +38,34 @@ body.node-type-product {
 				font-size: inherit !important;
 			}
 		}
-		.field-name-body p {
+		.field-name-body p { 
 			line-height: 1.4;
 			font-size: inherit;
 		}
 	}
 
+}
+
+@media (max-width:650px) {
+	.group-left, .group-right {
+		width:100% !important;
+		clear:both;
+		float:none !important;
+	}
+	.group-left {
+		border-right:0 !important;
+	}
+	.group-right {
+		/* background-color: pink; */
+		border-left:0px !important;
+	}
+	.gallery-slides {
+		height:auto !important;
+		padding-bottom: 25px;
+	}
+	.product__title {
+		text-align: left;
+	}
 
 }
+

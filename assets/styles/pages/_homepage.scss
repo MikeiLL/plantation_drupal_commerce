@@ -7,12 +7,14 @@
 	width:100%;
 }
 
+// Buttons
 .hero-cta {
 	position: absolute;
 	font-weight: bold;
 	padding: .8em;
 	bottom: 4em;
-	left:60%;
+	left:50%;
+    transform: translate(-50%, -50%);
 	background: $ming_blue;
 	color: $ming_white;
 	box-shadow: 7px 7px 5px darken($ming_blue, 18%);
@@ -46,10 +48,26 @@
 	}
 }
 
+.node-article {
+	padding: 1em;
+}
+
 @media (min-width:590px) {
 
 	.hero-copy p {
-		font-size: 2em;
+		font-size: 2.5em;
+		line-height: 2em;
+	}
+	.hero-cta {
+		position: absolute;
+		font-weight: bold;
+		padding: .8em;
+		bottom: 4em;
+		left:60%;
+		transform: translate(-35%, -50%);
+		background: $ming_blue;
+		color: $ming_white;
+		box-shadow: 7px 7px 5px darken($ming_blue, 18%);
 	}
 	
 }
@@ -57,7 +75,8 @@
 @media (min-width:960px) {
 
 	.hero-copy p {
-		font-size: 2.5em;
+		font-size: 3.6em;
+		line-height: 3.6em;
 	}
 	
 }
