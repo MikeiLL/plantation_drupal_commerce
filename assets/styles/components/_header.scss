@@ -2,16 +2,81 @@ header {
 	background-color:#fff;
 }
 
+.region-inner {
+	position: relative;
+}
+
+#block-delta-blocks-logo {
+	width:100%;
+}
+
+#block-block-6 { 
+	position:absolute;
+	margin-top: 0;
+	top:0;
+	right:0;
+	width:46px;
+}
+
+#block-system-main-menu {
+	display: block;
+	float:left;
+	width:50%;
+}
+
+#block-search-form {
+	float:right;
+}
+
+#block-system-main-menu .menu a {
+	margin:0 25px 0 0 !important;
+}
+
+form#search-block-form input[type="submit"] {
+	background-image:url('../images/search-icon.png');
+	background-repeat: no-repeat;
+	background-size: 85% 85%;
+	background-position: center;
+}
+
 .below_logo {
-	margin-left: 1em;
+	text-align:left;
 	span {
 		width: 100%;
 		display: block;
 	}
 }
 
+@media (max-width: 959px) {
+	
+	.region-leaderboard .region-inner, #header, .view-important-information, #menu-bar {
+	    padding-left: 15px !important;
+	    padding-right: 15px !important;
+	}
+}
+
+@media (min-width:621px) and (max-width: 959px) {
+	#block-search-form {
+		margin-right: 0 !important;
+	}
+}
+
+@media (min-width:0) and (max-width: 620px) {
+	.below_logo {
+			font-size:12px;
+			text-align: center;
+	}
+	#block-search-form {
+		margin: 0 auto !important;
+		float:none !important;
+		margin-top: 20px !important;
+	}
+
+}
+
 @media screen and (min-width:590px) {
 	.below_logo {
+		font-size:100%;
 		span {
 			margin-left: 1em;
 			width: 30%;

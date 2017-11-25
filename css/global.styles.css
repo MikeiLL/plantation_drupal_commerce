@@ -3013,7 +3013,9 @@ padding: 16px !important;
 
 }
 
-
+#header .region-header .region-inner, #menu-bar {
+    display: block;
+}
 
 @media screen and (min-width: 450px)
 {
