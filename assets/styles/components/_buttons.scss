@@ -1,8 +1,9 @@
-.node-article .links li a, button, input[type=submit] { 
+.node-article .links li a, button, input[type="submit"] { 
 	width:auto; 
 	overflow:visible; 
 	background: $ming_blue;
-	color: $ming_white;
+	/* color: $ming_white; */
+  color:#fff;
 	font-weight: bold;
 	padding: .8em;
 	box-shadow: 7px 7px 5px darken($ming_blue, 18%);

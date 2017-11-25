@@ -1,11 +1,20 @@
+footer {
+	background-color: $purple !important;
+}
+
 ul.footer__list {
 	display:flex;
 	justify-content:space-evenly;
-
+	font-family: 'chelsearegular';
 	li {
 		text-align: center;
 		line-height: 2;
-		font-size:12px;
+		font-size:14px;
+		font-family: inherit;
+		font-weight: 300; 
+		a {
+			font-weight: inherit; /*NOT WORKING */
+		}
 	}
 }
 

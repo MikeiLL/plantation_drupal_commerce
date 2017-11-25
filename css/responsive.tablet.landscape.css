@@ -9,8 +9,8 @@
   right: 35px;
 }
 #columns {
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-left: 0px; /* WAS 35px */
+  margin-right: 0px;
 }
 #block-delta-blocks-breadcrumb #breadcrumb {
   padding-left: 35px;

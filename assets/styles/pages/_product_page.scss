@@ -21,14 +21,32 @@ body.node-type-product {
 	}
 
 	.group-left {
-		padding-right:1%;
 		border-right:1px solid #ccc;
+		overflow: hidden;
+		padding-right:1%;
+		position: relative;
+
+		.gallery-thumbs {
+			padding-left: 0;
+			padding-right: 0;
+			width:100% !important;
+		}
+
+
+		
+
 	}
 	.group-right {
 		/* background-color: pink; */
 		border-left:1px solid #ccc;
 		padding-left:1%;
+		padding-bottom: 40px;
 		/* flex-grow:1; */
+		position: relative;
+
+		.product__title {
+			text-align: left;
+		}
 
 		section {
 			margin-bottom:5px;
@@ -42,30 +60,52 @@ body.node-type-product {
 			line-height: 1.4;
 			font-size: inherit;
 		}
+
+		#block-webform-client-block-23 h2.block-title {
+			background-color:$purple;
+			font-weight: bold;
+			color: #fff;
+			padding: 10px;
+			border-radius: 3px;
+		}
+		.addtoany_list {
+			position: absolute;
+			bottom:0;
+			left:0;
+			padding: 0;
+		}
+	}
+	@media (min-width: 651px) {
+		/*
+		.gallery-slides {
+			height:auto !important; 
+		} */
+	}
+
+	@media (max-width:650px) {
+		.group-left, .group-right {
+			width:100% !important;
+			clear:both;
+			float:none !important;
+		}
+		.group-left {
+			border-right:0 !important;
+		}
+		.group-right {
+			/* background-color: pink; */
+			border-left:0px !important;
+		}
+		.gallery-slides {
+			/* height:auto !important; CAUSING SLIDE TO DISPLAY TOO SHORT */
+			padding-bottom: 25px;
+		}
+		.product__title {
+			/*text-align: left; */
+		}
+		.node-article .links li a, button, input[type="submit"] { 
+			width:100%;
+			}
+
 	}
 
 }
-
-@media (max-width:650px) {
-	.group-left, .group-right {
-		width:100% !important;
-		clear:both;
-		float:none !important;
-	}
-	.group-left {
-		border-right:0 !important;
-	}
-	.group-right {
-		/* background-color: pink; */
-		border-left:0px !important;
-	}
-	.gallery-slides {
-		height:auto !important;
-		padding-bottom: 25px;
-	}
-	.product__title {
-		text-align: left;
-	}
-
-}
-

@@ -38,8 +38,8 @@
     padding-top:  30px;
   }
   #content-column, .content-column, div.sidebar {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left:0px; /*WAS 15px */
+    margin-right:0px;
   }
   #block-delta-blocks-breadcrumb {
     margin-bottom: 0;
