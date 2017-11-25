@@ -3014,6 +3014,14 @@ padding: 16px !important;
 }
 
 
+
+@media screen and (min-width: 450px)
+{
+.logo-img {
+    width: auto !important;
+}
+}
+
 .block-inner h2{
 
 font-size:26px;
