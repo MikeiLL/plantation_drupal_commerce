@@ -262,7 +262,40 @@
           </ul>
         </div>
       </footer>
-   
+		<script type="application/ld+json">
+		{
+		 "@context": "http://schema.org",
+		 "@type": "LocalBusiness",
+		 "address": {
+		   "@type": "PostalAddress",
+		   "addressLocality": "Mobile",
+		   "addressRegion": "AL",
+		   "streetAddress": "604 Bel Air Blvd",
+		   "postalCode": "36606"
+		 },
+		 "description": "We are proud to offer Gulf Coast's largest selection of fine Oriental rugs, quality antiques of the 18th and 19th centuries, unique vintage lighting, and fine decorator accessories, all curated to suit the look of today's perfect mix of old and new, modern and Old World.",
+		 "name": "Plantation Antique Galleries",
+		 "telephone": "12514709961",
+		 "image": "http://plantationgalleries.com/sites/default/files/logo-1.png"
+		}
+		</script>
+		<script type="application/ld+json">
+		{
+		 "@context": "http://schema.org",
+		 "@type": "Store",
+		 "address": {
+		   "@type": "PostalAddress",
+		   "addressLocality": "Mobile",
+		   "addressRegion": "AL",
+		   "streetAddress": "604 Bel Air Blvd",
+		   "postalCode": "36606"
+		 },
+		 "description": "We are proud to offer Gulf Coast's largest selection of fine Oriental rugs, quality antiques of the 18th and 19th centuries, unique vintage lighting, and fine decorator accessories, all curated to suit the look of today's perfect mix of old and new, modern and Old World.",
+		 "name": "Plantation Antique Galleries",
+		 "telephone": "12514709961",
+		 "image": "http://plantationgalleries.com/sites/default/files/logo-1.png"
+		}
+		</script>
 
   </div>
 </div>
