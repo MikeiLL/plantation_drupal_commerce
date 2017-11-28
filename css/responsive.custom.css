@@ -757,6 +757,8 @@
     padding-bottom: 24px;
   }
 }
+
+
 @media only screen and (min-width: 451px) and (max-width: 959px) {
   #block-delta-blocks-logo {
     float: left;

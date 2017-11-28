@@ -21,7 +21,7 @@
       $('ul', ul).removeClass('dropdown-menu-categories');
     });
 
-    $('#block-block-5').once(function(){
+    $('#block-block-6').once(function(){
       $(this).bind('click', function(){
         $('#block-system-main-menu').toggleClass('active');
         $('#block-system-main-menu').slideToggle('slow');

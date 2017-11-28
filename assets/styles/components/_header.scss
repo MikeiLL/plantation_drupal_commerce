@@ -15,9 +15,16 @@ header {
 	margin-top: 0;
 	top:0;
 	right:0;
-	width:46px;
+	transition:all .5s;
+	width:46px !important;
+	.block-inner {
+		box-shadow: none;
+	}
+	
 }
-
+#block-block-6:hover {
+	background-color: $purple;
+}
 #block-system-main-menu {
 	display: block;
 	float:left;
@@ -35,7 +42,7 @@ header {
 form#search-block-form input[type="submit"] {
 	background-image:url('../images/search-icon.png');
 	background-repeat: no-repeat;
-	background-size: 85% 85%;
+	background-size: 65% 65%;
 	background-position: center;
 }
 
@@ -46,6 +53,20 @@ form#search-block-form input[type="submit"] {
 		display: block;
 	}
 }
+
+@media only screen and (min-width: 0px) and (max-width:450px) {
+  #block-delta-blocks-logo {
+    border-bottom: 0px solid #ddd !important;
+    padding-bottom: 0px !important;
+    }
+  #block-block-6 {
+  	top:58px;
+  }  
+    
+
+}
+
+
 
 @media (max-width: 959px) {
 	
