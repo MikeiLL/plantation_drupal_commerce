@@ -52,6 +52,16 @@
 	}
 }
 
+.read-more {
+	@include link-as-button;
+	display: block;
+	transition:.5s;
+}
+
+.read-more:hover {
+	background-color: $purple !important;
+}
+
 .node-article {
 	padding: 1em;
 	width:50%;

@@ -1,0 +1,20 @@
+@mixin link-as-button {
+	background:$yellow;
+	border:1px solid #b6bcc3;
+	border-radius:2px;
+	color:#fff;
+	font-size:11px;
+	font-family: 'IM Fell English', serif;
+	padding:10px 30px;
+	background-color: #b6a465 !important;
+	text-transform:uppercase;
+	text-align: center;
+	box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.4), inset 0px 10px 20px 0px rgba(255, 255, 255, 0.3);
+	transition:.5s;
+
+	a {
+		color:inherit !important;
+	}
+	
+
+}
