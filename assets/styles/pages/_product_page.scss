@@ -107,5 +107,20 @@ body.node-type-product {
 			}
 
 	}
+}
 
+.rotate {
+	li {
+		//padding-bottom: 100px !important;
+		padding:20px 0 !important;
+	}
+	img {
+		transform: rotate(90deg);
+		position: relative;
+		top:60px;
+	}
+	.views-field-field-measurements {
+		position: relative;
+		margin-top:125px;	
+	}
 }

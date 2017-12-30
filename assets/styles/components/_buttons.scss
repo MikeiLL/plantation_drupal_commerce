@@ -32,7 +32,15 @@
   border-color: #B6A465;
 }
 
+body.front {
+  .field-name-node-link a {
+    @include link-as-button; 
+  }
+  .field-name-node-link a:hover {
+    background-color: $purple !important;
+  }
 
+}
 
 @media (min-width:590px) {
 
