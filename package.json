@@ -1,12 +1,12 @@
 {
   "devDependencies": {
-    "gulp": "latest",
-    "gulp-coffee": "latest",
+    "gulp": "^4.0.0",
+    "gulp-coffee": "^3.0.3",
     "gulp-concat": "latest",
-    "gulp-connect": "latest",
+    "gulp-connect": "^5.7.0",
     "gulp-imagemin": "^4.0.0",
-    "gulp-sass": "latest",
-    "gulp-uglify": "latest",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
     "gulp-util": "latest"
   }
 }
